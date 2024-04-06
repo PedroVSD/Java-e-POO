@@ -18,7 +18,7 @@ public class Bike {
 	}
 	
 	public void imprimirEstados() {
-		System.out.println(this.velocidade);
+		
 	}
 	
 }

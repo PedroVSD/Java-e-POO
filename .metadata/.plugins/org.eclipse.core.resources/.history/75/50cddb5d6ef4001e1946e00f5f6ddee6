@@ -1,0 +1,10 @@
+package slide_P2;
+
+public class Modelo_bike {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
