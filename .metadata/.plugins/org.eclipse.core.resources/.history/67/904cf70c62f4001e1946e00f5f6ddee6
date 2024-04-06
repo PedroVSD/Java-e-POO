@@ -1,0 +1,16 @@
+package slide_P2;
+
+public class Instancia {
+	public class Cachorro() {
+		
+	}
+	public void late(){
+		System.out.println("rogh rogh");
+	}
+	
+	public static void main(String[] Args) {
+		Cachorro bingo;
+		bingo = new Cachorro();
+		bingo.late();
+	}
+}
