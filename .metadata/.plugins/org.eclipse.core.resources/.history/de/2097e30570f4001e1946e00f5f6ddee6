@@ -5,9 +5,8 @@ public class Bike {
 	int marcha;
 	
 	
-	public void mudarMarcha(int novaMarcha) {
-		marcha = novaMarcha;
-		//this.marcha = marcha;
+	public void mudarMarchar(int marcha) {
+		this.marcha = marcha;
 	}
 	
 	public void acelerar(int incremento) {
@@ -20,7 +19,6 @@ public class Bike {
 	
 	public void imprimirEstados() {
 		System.out.println(this.velocidade);
-		System.out.println(this.marcha);
 	}
 	
 }
