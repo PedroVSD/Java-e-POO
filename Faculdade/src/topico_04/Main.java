@@ -1,5 +1,8 @@
 package topico_04;
 
 public class Main {
-
+	public static void main(String [] Args) {
+		Item I1 = new Item("PC", 5.000, 1);
+		Item I2 = new Item("CAmisa", 125.0, 5);
+	}
 }
