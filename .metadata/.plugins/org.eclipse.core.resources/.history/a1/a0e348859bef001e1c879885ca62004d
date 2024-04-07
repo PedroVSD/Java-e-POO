@@ -1,7 +1,0 @@
-package classe;
-
-public class Produto_01 {
-	String nome;
-	double preco;
-	double desconto;
-}

@@ -6,5 +6,5 @@ public class Aula04 {
 		Caneta c1 = new Caneta("Haduken", "Branca", 0.5f);
 		c1.status();
 	}
-	
+
 }
