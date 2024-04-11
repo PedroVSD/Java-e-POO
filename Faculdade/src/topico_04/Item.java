@@ -10,4 +10,28 @@ public class Item {
 		this.precoUnitario = precoUnitario;
 		this.qnt = qnt;
 	}
+	
+	public String getNome() {
+		return this.nome;
+	}
+	
+	public double getPrecoUnitario() {
+		return this.precoUnitario;
+	}
+	
+	public int getQnt() {
+		return this.qnt;
+	}
+	
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	public void setPrecoUnitario(double precoUnitario) {
+		this.precoUnitario = precoUnitario;
+	}
+	
+	public void setQnt(int qnt) {
+		this.qnt = qnt;
+	}
 }

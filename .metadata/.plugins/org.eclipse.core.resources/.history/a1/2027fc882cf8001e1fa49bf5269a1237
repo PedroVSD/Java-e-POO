@@ -5,7 +5,7 @@ public class Fatura {
 	private String nome;
 	private String CPF;
 
-
+	
 	public String getNome() {
 		return this.nome;
 	}
@@ -18,15 +18,8 @@ public class Fatura {
 		return this.CPF;
 	}
 	
-	public void setCpf(String CPF) {
+	public void setCpf() {
 		this.CPF = CPF;
-	}
-	
-	
-	public Fatura(String nome, String CPF, int qnt) {
-		this.nome = nome;
-		this.CPF = CPF;
-		itens = new Item[qnt];
 	}
 	
 	

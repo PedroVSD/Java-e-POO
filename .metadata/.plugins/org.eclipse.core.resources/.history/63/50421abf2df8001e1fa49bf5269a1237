@@ -5,6 +5,12 @@ public class Fatura {
 	private String nome;
 	private String CPF;
 
+	
+	public Fatura(String nome, String CPF, int qnt) {
+		this.nome = nome;
+		this.CPF = CPF;
+		itens = new Item[qnt];
+	}
 
 	public String getNome() {
 		return this.nome;
@@ -23,13 +29,6 @@ public class Fatura {
 	}
 	
 	
-	public Fatura(String nome, String CPF, int qnt) {
-		this.nome = nome;
-		this.CPF = CPF;
-		itens = new Item[qnt];
-	}
-	
-	
 	public double obtemPreco() {
 		double tot = 0;
 		
@@ -41,6 +40,11 @@ public class Fatura {
 	}
 	
 	public void adicionarItem(int i, Item novoItem) {
-		this.itens[i] = novoItem;
+	    if (i >= 0 && i < itens.length) {
+	        this.itens[i] = novoItem;
+	    } else {
+	        System.out.println("Índice inválido: " + i);
+	    }
 	}
+
 }

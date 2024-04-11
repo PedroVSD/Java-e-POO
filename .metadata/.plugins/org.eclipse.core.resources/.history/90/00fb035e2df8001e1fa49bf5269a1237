@@ -1,10 +1,16 @@
 package topico_04;
 
 public class Fatura {
-	private Item itens[];
 	private String nome;
 	private String CPF;
+	private Item itens[];
 
+	
+	public Fatura(String nome, String CPF, int qnt) {
+		this.nome = nome;
+		this.CPF = CPF;
+		itens = new Item[qnt];
+	}
 
 	public String getNome() {
 		return this.nome;
@@ -20,13 +26,6 @@ public class Fatura {
 	
 	public void setCpf(String CPF) {
 		this.CPF = CPF;
-	}
-	
-	
-	public Fatura(String nome, String CPF, int qnt) {
-		this.nome = nome;
-		this.CPF = CPF;
-		itens = new Item[qnt];
 	}
 	
 	

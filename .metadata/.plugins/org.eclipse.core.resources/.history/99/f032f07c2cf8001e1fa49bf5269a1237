@@ -5,31 +5,6 @@ public class Fatura {
 	private String nome;
 	private String CPF;
 
-
-	public String getNome() {
-		return this.nome;
-	}
-	
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-	
-	public String getCpf() {
-		return this.CPF;
-	}
-	
-	public void setCpf(String CPF) {
-		this.CPF = CPF;
-	}
-	
-	
-	public Fatura(String nome, String CPF, int qnt) {
-		this.nome = nome;
-		this.CPF = CPF;
-		itens = new Item[qnt];
-	}
-	
-	
 	public double obtemPreco() {
 		double tot = 0;
 		
