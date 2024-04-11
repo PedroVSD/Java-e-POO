@@ -4,7 +4,6 @@ public class Fatura {
 	private Item itens[];
 	private String nome;
 	private String CPF;
-	//private String nome2;
 
 
 	public String getNome() {

@@ -1,0 +1,43 @@
+package aula05;
+
+public class Conta_banco {
+	private double saldo;
+	private int numConta;
+	private String dono;
+	private boolean Status;
+	private String tipo;
+	
+	
+	public void setAbrirConta(boolean Status) {
+		this.Status = Status;
+	}
+	
+	public boolean getAbrirConta() {
+		return Status;
+	}
+	
+	public void setFecharConta(boolean Status) {
+		this.Status = Status;
+	}
+	
+	public boolean getFecharConta() {
+		return Status;
+	}
+	
+	public void setDepositar(double deposito) {
+		saldo += deposito;
+	}
+	
+	public double getDepositar() {
+		return saldo;
+	}
+	
+	public void setSacar(double saque) {
+		saldo -= saque;
+	}
+	
+	public double getSacar() {
+		return saldo;
+	}
+	
+}

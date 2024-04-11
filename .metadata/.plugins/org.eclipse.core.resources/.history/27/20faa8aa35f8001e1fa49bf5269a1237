@@ -9,10 +9,6 @@ public class Biblioteca {
 		System.out.println("Qual a cor da estante?");
 		Estante_n1.cor = "Branca";
 		System.out.println(Estante_n1.corEstante());
-		
-		Estante_n1.setLivrosPub(1);
-		
-		
 
 	}	
 }

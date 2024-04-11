@@ -13,7 +13,6 @@ public class Caneta {
 		this.tampar();
 	}
 	
-
 	public String getCor(){
 		return this.cor;
 	}
