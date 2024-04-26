@@ -1,0 +1,14 @@
+package aula05_2;
+
+public class Banco {
+	
+	public static void main(String[] args) {
+		ContaBanco novaConta = new ContaBanco();
+		
+		novaConta.abrirConta("CC");
+		novaConta.setDono("Pedro");
+		novaConta.depositar(10000);
+		novaConta.depositar(1000);
+	}
+
+}

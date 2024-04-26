@@ -1,0 +1,26 @@
+package aula_10_heranca;
+
+public class Main extends Pessoa{
+
+	public static void main(String[] args) {
+		Aluno novoAluno = new Aluno();
+		Pessoa novaPessoa = new Pessoa();
+		Professor novoProfessor = new Professor();
+		Funcionario novoFuncionario = new Funcionario();
+		
+		novoAluno.setNome("Pedro");
+		novaPessoa.setNome("Maria");
+		novoProfessor.setNome("Cláudio");
+		novoFuncionario.setNome("Fabiana");
+		
+		novaPessoa.setCurso("Informática");
+		novoProfessor.setSalario(2500.75f);
+		novoFuncionario.setSetor("Estoque");
+		
+		novoAluno.ReceberAum(550.20f);
+		
+		System.out.println(novoAluno.toString());
+		
+	}
+
+}

@@ -7,7 +7,7 @@ public class Banco {
 		
 		novaConta.setNumConta(101);
 		novaConta.setDono("Pedro");
-		novaConta.AbrirConta("CC");
+		novaConta.AbrirConta("CP");
 		novaConta.estadoConta();
 	}
 

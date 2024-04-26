@@ -1,0 +1,10 @@
+package aula_10_heranca;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Aluno novoAluno = new Aluno();
+		novoAluno.
+	}
+
+}

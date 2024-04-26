@@ -19,6 +19,7 @@ public class Conta_banco {
 	public void Conta_banco() {
 		this.setSaldo(0);
 		this.setStatus(false);
+		System.out.println();
 	}
 	
 	public void AbrirConta(String tipo) {

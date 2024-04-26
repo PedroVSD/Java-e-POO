@@ -1,9 +1,0 @@
-package cursoEmviddeo;
-
-public class Aula04 {
-
-	public static void main(String[] args) {
-		c1.status();
-	}
-
-}
