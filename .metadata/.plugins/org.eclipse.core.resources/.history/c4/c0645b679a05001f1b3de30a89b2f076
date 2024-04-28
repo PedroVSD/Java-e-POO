@@ -1,0 +1,6 @@
+package arraylist;
+
+public class Carro {
+	String modelo;
+	int placa;
+}

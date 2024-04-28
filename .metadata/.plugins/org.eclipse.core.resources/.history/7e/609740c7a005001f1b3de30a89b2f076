@@ -1,0 +1,12 @@
+package arraylist;
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		ArrayList<Integer> vetor_bolado = new ArrayList<>();
+		
+	}
+
+}

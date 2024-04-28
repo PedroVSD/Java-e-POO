@@ -1,0 +1,21 @@
+package arraylist;
+
+import java.util.ArrayList;
+
+public class Media {
+	private int elementos;
+	
+	ArrayList<Integer> vetor_bolado = new ArrayList<>();
+	
+	public void setElementos(int ele) {
+		this.elementos = ele;
+	}
+	
+	public ArrayList<Integer> getElemetos() {
+		return vetor_bolado;
+	}
+	
+	public void adicionaElemento(int elemento) {
+		vetor_bolado.add(elemento);
+	}
+}
