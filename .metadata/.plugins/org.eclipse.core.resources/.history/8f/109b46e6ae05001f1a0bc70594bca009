@@ -4,11 +4,9 @@ import java.util.Random;
 
 public class Tabuleiro {
 	
-	private Peca tabuleiro[][] = new Peca[8][8];
 	
-	 public Tabuleiro() {
-	        encheTabuleiro();
-	    }
+	
+	private Peca tabuleiro[][] = new Peca[8][8];
 	
 	private void encheTabuleiro() {
 		Random aleatorio = new Random();
