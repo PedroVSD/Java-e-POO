@@ -1,0 +1,12 @@
+package herancaPt2;
+
+public class Pessoa {
+	String nome;
+	int idade;
+	String sexo;
+	
+	public final void fazerAniversario() {
+		
+	}
+	
+}

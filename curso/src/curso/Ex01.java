@@ -6,6 +6,8 @@ public class Ex01 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		int n = 10;
+		int[] vetor = new int[n];
 		
 		String s1, s2, s3;
 		int x;
