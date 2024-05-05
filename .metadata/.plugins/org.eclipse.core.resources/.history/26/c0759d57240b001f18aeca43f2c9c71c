@@ -12,11 +12,6 @@ public class Personagem {
 	
 	private ArrayList<Item> mochila;
 	
-	public Personagem(String nome) {
-		this.nome = nome;
-		this.mochila = new ArrayList<>();
-	}
-	
 	public void AddITem(Item item) {
 		mochila.add(item);
 		this.qntForca += item.forcaItem();
@@ -24,6 +19,10 @@ public class Personagem {
 	    this.HP += item.vidaItem();
 	}
 
+	public Personagem(String nome) {
+		this.nome = nome;
+		this.mochila = new ArrayList<>();
+	}
 
 	public int getPontuação() {
 		return pontuação;
