@@ -1,0 +1,22 @@
+package relacionamentoEntreClasses;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//Lustador listaLutadores[] = new Lutador[5];
+		//listaLutadores[0] = new Lutador("Pretty boy", "França", 31, 1.75f, 68.9f, 11, 3, 1) ;
+		
+		ArrayList<Lutador> listaLutadores = new ArrayList<>();
+		
+		listaLutadores.add(new Lutador("Pretty boy", "França", 31, 1.75f, 68.9f, 11, 3, 1));
+		listaLutadores.add(new Lutador("Putscript", "Brasil", 29, 1.68f, 57.8f, 14, 2, 3));
+		
+		Lutador l1 = listaLutadores.get(0);
+		
+		l1.status();
+		
+	}
+
+}

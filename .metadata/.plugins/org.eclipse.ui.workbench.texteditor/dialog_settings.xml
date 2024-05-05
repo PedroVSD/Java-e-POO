@@ -6,11 +6,16 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="float"/>
+		<item key="selection" value="mochila"/>
 		<list key="findhistory">
+			<item value="mochila"/>
+			<item value="Conan"/>
+			<item value="Fase"/>
+			<item value="nome"/>
 			<item value="double"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Aragorn"/>
 			<item value="float"/>
 		</list>
 	</section>

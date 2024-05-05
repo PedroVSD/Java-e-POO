@@ -1,0 +1,13 @@
+package relacionamentoEntreClasses;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		ArrayList<Lutador> listaLutadores = new ArrayList<>();
+
+		listaLutadores.add(new Lutador("Pretty boy", "França", 31, 1.75, 68.9, 11, 3, 1));
+	}
+
+}
