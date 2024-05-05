@@ -6,4 +6,19 @@ public class Bolsista extends Aluno{
 	public void RenovarBolsa(){
 		
 	}
+	
+	
+	public float getBolsa() {
+		return bolsa;
+	}
+
+
+	public void setBolsa(float bolsa) {
+		this.bolsa = bolsa;
+	}
+
+
+	public void pagarMensalidade() {
+		
+	}
 }

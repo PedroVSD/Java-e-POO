@@ -1,0 +1,79 @@
+package p1Jogo;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Personagem {
+	private final String nome;
+	private int pontuação;
+	private int qntForca;
+	private int qntInteligencia;
+	private int HP;
+	private String sexo;
+	
+	private ArrayList<Item> mochila;
+	
+	public void atualizaStatus(Item item) {
+		this.qntForca = item.forcaItem();
+		this.HP = item.vidaItem();
+		this.qntInteligencia = item.inteligenciaItem();	}
+
+	public void AddITem(Item item) {
+		mochila.add(item);
+	}
+
+	public Personagem(String nome) {
+		this.nome = nome;
+	}
+
+	public int getPontuação() {
+		return pontuação;
+	}
+
+	public void setPontuação(int pontuação) {
+		this.pontuação = pontuação;
+	}
+
+	public int getQntForca() {
+		return qntForca;
+	}
+
+	public void setQntForca(int qntForca) {
+		this.qntForca = qntForca;
+	}
+
+	public int getQntInteligencia() {
+		return qntInteligencia;
+	}
+
+	public void setQntInteligencia(int qntInteligencia) {
+		this.qntInteligencia = qntInteligencia;
+	}
+
+	public int getHP() {
+		return HP;
+	}
+
+	public void setHP(int hP) {
+		HP = hP;
+	}
+
+	public String getSexo() {
+		return sexo;
+	}
+
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
+	}
+
+
+	public void setMochila(Item espada) {
+		this.mochila = espada;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+	
+	
+}

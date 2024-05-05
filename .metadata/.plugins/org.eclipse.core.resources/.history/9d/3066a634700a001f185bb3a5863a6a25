@@ -1,0 +1,28 @@
+package p1Jogo;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner();
+		
+		Fase.setNumeroPersonagens(9);
+		Fase level = new Fase("Fase 1", 2);
+		level.definirDificuldade();
+		
+		System.out.println("A dificuldade da fase é " + level.getDificuldade());
+		
+		
+		Guerreiro Conan = new Guerreiro("Conan");
+		
+		System.out.println(Conan.getNome());
+		
+		Conan.setSexo("Masculino");
+		if(Conan.getSexo().equals("Masculino")) {
+			Conan.setQntForca(5);
+			Conan.setQntInteligencia(10);
+			Conan.setHP(100);
+		}
+	}
+
+}

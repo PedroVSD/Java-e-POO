@@ -1,0 +1,8 @@
+package p1Jogo;
+
+public class Item {
+	private final String nome;
+	private final int forca;
+	private final int inteligencia;
+	private final int vida;
+}

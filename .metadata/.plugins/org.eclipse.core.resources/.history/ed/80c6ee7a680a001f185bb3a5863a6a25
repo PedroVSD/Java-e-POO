@@ -1,0 +1,64 @@
+package p1Jogo;
+
+public class Personagem {
+	private final String nome = "";
+	private int pontuação;
+	private int qntForca;
+	private int qntInteligencia;
+	private int HP;
+	private String sexo;
+	
+	String[] mochila = new String[10];
+
+	public int getPontuação() {
+		return pontuação;
+	}
+
+	public void setPontuação(int pontuação) {
+		this.pontuação = pontuação;
+	}
+
+	public int getQntForca() {
+		return qntForca;
+	}
+
+	public void setQntForca(int qntForca) {
+		this.qntForca = qntForca;
+	}
+
+	public int getQntInteligencia() {
+		return qntInteligencia;
+	}
+
+	public void setQntInteligencia(int qntInteligencia) {
+		this.qntInteligencia = qntInteligencia;
+	}
+
+	public int getHP() {
+		return HP;
+	}
+
+	public void setHP(int hP) {
+		HP = hP;
+	}
+
+	public String getSexo() {
+		return sexo;
+	}
+
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
+	}
+
+	public String[] getMochila() {
+		return mochila;
+	}
+
+	public void setMochila(String[] mochila) {
+		this.mochila = mochila;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+}

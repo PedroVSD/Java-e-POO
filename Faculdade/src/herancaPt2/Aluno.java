@@ -1,10 +1,26 @@
 package herancaPt2;
 
 public class Aluno extends Pessoa{
-	int matricula;
-	String curso;
+	private int matricula;
+	private String curso;
 	
-	public boolean pagarMensalidade(){
+	public int getMatricula() {
+		return matricula;
+	}
+
+	public void setMatricula(int matricula) {
+		this.matricula = matricula;
+	}
+
+	public String getCurso() {
+		return curso;
+	}
+
+	public void setCurso(String curso) {
+		this.curso = curso;
+	}
+
+	public void final pagarMensalidade(){
 		
 	}
 }

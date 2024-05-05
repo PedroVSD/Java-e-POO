@@ -29,5 +29,11 @@ public abstract class Pessoa {
 	public String getSexo() {
 		return this.sexo;
 	}
+
+	@Override
+	public String toString() {
+		return "Pessoa [nome=" + nome + ", idade=" + idade + ", sexo=" + sexo + "]";
+	}
+	
 	
 }

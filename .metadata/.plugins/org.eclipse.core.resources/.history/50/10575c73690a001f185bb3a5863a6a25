@@ -1,0 +1,11 @@
+package p1Jogo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Guerreiro Conan = new Guerreiro("Conan");
+		
+		System.out.println(Conan.getNome());
+	}
+
+}
