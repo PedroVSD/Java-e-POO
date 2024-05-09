@@ -1,6 +1,0 @@
-package arraylist;
-
-public class Media {
-	String modelo;
-	int placa;
-}

@@ -11,7 +11,7 @@ public class Main {
 		
 		
 		Guerreiro Aragorn = new Guerreiro("Aragorn");
-		Mago Galadriel = new Mago("Gandalf");
+		Mago Galadriel = new Mago("Priscila");
 		
 		
 		Aragorn.setSexo("Masculino");
