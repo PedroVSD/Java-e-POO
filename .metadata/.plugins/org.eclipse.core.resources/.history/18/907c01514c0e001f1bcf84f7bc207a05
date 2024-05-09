@@ -1,0 +1,13 @@
+package futebol;
+
+public class Time{
+	private String estiloJogo;
+	private float caixaContratacao;
+	private float pagamentoBonus;
+	
+	private Estadio estadioTime;
+	
+	public Time(Estadio estadioTime) {
+		this.estadioTime = estadioTime;
+	}
+}

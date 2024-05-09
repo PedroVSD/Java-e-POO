@@ -1,0 +1,26 @@
+package futebol;
+
+public class Time{
+	private String estiloJogo;
+	private float caixaContratacao;
+	private float pagamentoBonus;
+	
+	private Estadio estadioTime;
+	
+	public Time(Estadio estadioTime) {
+		this.estadioTime = estadioTime;
+	}
+	
+	public String getLocalizacaoEstadio() {
+		return estadioTime.getLocalizacao();
+	}
+	
+	public int getCapMaximaEstadio() {
+		return estadioTime.getCapMaxima();
+	}
+	
+	public int getTaxaEntradaEstadio() {
+		return estadioTime.getTaxaEntrada();
+	}
+	
+}
