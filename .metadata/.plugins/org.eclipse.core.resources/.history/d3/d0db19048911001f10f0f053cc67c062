@@ -23,6 +23,10 @@ public class Fase {
 		return dificuldade;
 	}
 	
+	public void setDificuldade(int dificuldade) {
+		this.dificuldade = dificuldade;
+	}
+	
 	public static int getNumPersonagens() {
 		return numPersonagens;
 	}
