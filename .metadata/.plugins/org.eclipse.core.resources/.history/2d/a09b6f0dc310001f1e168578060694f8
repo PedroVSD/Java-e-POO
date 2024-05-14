@@ -1,0 +1,6 @@
+package jogoP1;
+import java.util.ArrayList;
+
+public class Mochila {
+	ArrayLista<Item> mochila = new ArrayLista<>();
+}

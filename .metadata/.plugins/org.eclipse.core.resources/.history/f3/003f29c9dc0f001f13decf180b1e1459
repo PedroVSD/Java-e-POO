@@ -1,0 +1,20 @@
+package listas;
+
+import java.util.ArrayList;
+
+public class Arraylist {
+	public static void main(String[] args) {
+		//Vetor normal
+		int n = 10;
+		String[] nomes = new String[n];
+		nomes[0] = "Pedro";
+		nomes[1] = "Maria";
+		
+		ArrayList nome_novo = new ArrayList();
+		ArrayList listaBruta = new ArrayList();
+		ArrayList<String> listaDeStrings = new ArrayList<>();
+		listaDeStrings.add("Pedro");
+		nome_novo.add("Maria");
+	
+	}
+}

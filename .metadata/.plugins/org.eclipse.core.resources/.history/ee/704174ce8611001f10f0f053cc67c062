@@ -1,0 +1,38 @@
+package provaP9;
+
+public class Fase {
+	private final String nome;
+	private int dificuldade;
+	private static int numPersonagens = tamVetor(getListaPersonagens());// lista de personagem
+	
+	
+	
+	public Fase(String nome) {
+		this.nome = nome;
+	}
+	
+	public void dificuldadeFase() {
+		this.dificuldade = tamVetor(getListaPersonagens()) + 1;
+	}
+	
+	public int getDificuldade() {
+		return dificuldade;
+	}
+	
+	public void setDificuldade(int dificuldade) {
+		this.dificuldade = dificuldade;
+	}
+	
+	public static int getNumPersonagens() {
+		return numPersonagens;
+	}
+	
+	public static void setNumPersonagens(int numPersonagens) {
+		Fase.numPersonagens = numPersonagens;
+	}
+	
+	public String getNome() {
+		return nome;
+	}
+	
+}

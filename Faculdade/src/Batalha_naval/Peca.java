@@ -1,4 +1,4 @@
-package Batalha_naval;
+package batalha_naval;
 
 public class Peca {
 	private int valorPeca;

@@ -1,0 +1,17 @@
+package sudoku;
+
+public class Main {
+	public static void main(String[] args) {
+        int[][] board = generateRandomSudoku();
+        System.out.println("Tabuleiro de Sudoku gerado aleatoriamente:");
+        printBoard(board);
+
+        System.out.println("Tente resolver o Sudoku. Use números de 1 a 9 e 0 para células vazias.");
+
+        if (solveSudoku(board)) {
+            System.out.println("\nParabéns! Você resolveu o Sudoku!");
+        } else {
+            System.out.println("\nNão foi possível resolver o Sudoku gerado. Mais sorte na próxima vez!");
+        }
+    }
+}

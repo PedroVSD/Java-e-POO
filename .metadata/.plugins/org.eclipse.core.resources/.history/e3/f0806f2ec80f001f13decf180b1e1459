@@ -1,0 +1,6 @@
+package carro;
+
+public class Carro {
+	private String cor;
+	private final int numeroChassis;
+}

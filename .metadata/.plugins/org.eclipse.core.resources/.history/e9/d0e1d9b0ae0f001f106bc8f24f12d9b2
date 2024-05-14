@@ -1,0 +1,16 @@
+package fatura;
+
+public class Item {
+	private int quantidade;
+	private double precoUnitario;
+	private String nome;
+	
+	
+	public void setQuantidade(int quantidade) {
+		this.quantidade = quantidade;
+	}
+	
+	public int getQuantidade() {
+		return quantidade;
+	}
+}

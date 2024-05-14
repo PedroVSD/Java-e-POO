@@ -1,0 +1,6 @@
+package provaP9;
+
+public abstract class Personagem {
+	private final String nome;
+	
+}

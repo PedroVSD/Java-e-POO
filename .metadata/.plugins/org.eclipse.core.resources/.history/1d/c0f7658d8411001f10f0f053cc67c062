@@ -1,0 +1,7 @@
+package provaP9;
+
+public class Guerreiro extends Personagem{
+	private int stamina;
+	
+	
+}
