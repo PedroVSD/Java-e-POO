@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="mochila"/>
+		<item key="selection" value="mana"/>
 		<list key="findhistory">
+			<item value="stamina"/>
 			<item value="mochila"/>
 			<item value="Conan"/>
 			<item value="Fase"/>
@@ -15,6 +16,7 @@
 			<item value="double"/>
 		</list>
 		<list key="replacehistory">
+			<item value="mana"/>
 			<item value="Aragorn"/>
 			<item value="float"/>
 		</list>

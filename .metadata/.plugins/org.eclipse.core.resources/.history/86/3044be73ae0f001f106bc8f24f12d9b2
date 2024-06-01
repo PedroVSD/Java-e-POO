@@ -1,7 +1,0 @@
-package fatura;
-
-public class Item {
-	private int quantidade;
-	private double precoUnitario;
-	private String nome;
-}

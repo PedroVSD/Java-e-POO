@@ -1,7 +1,0 @@
-package listas;
-
-public class Arraylist {
-	//Vetor normal
-	int n = 10;
-	String[] nomes = new String[n];
-}
