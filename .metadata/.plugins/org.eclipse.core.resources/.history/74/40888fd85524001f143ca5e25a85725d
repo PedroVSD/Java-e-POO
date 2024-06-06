@@ -1,0 +1,11 @@
+package interfaces;
+
+public class Papagaio {
+	public void Voar() {
+		
+	}
+	
+	public void emitirSom() {
+		
+	}
+}

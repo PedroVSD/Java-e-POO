@@ -1,0 +1,5 @@
+package jogoP1;
+
+public enum Estado {
+
+}

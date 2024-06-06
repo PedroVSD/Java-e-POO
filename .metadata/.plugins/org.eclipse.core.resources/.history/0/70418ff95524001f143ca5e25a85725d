@@ -1,0 +1,13 @@
+package interfaces;
+
+public class Gato {
+	String raca;
+	
+	public void amamentar() {
+		
+	}
+	
+	public void emitirSom() {
+		
+	}
+}

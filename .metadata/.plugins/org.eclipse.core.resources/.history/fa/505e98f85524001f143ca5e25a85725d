@@ -1,0 +1,7 @@
+package interfaces;
+
+public class Mamifero {
+	public void amamentar() {
+		
+	}
+}

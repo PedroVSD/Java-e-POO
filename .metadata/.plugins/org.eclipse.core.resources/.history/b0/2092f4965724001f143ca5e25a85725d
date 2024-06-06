@@ -1,0 +1,6 @@
+package interfaces;
+
+public interface AnimalDomesticado {
+	public abstract void alimentar();
+	public abstract void levarVeterinario();
+}

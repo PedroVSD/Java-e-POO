@@ -1,0 +1,14 @@
+package interfaces;
+
+public class Cachorro {
+	String tamanho;
+	String raca;
+	
+	public void amamentar() {
+		
+	}
+	
+	public void emitirSom() {
+		
+	}
+}

@@ -11,9 +11,9 @@ public class Arraylist {
 		nomes[0] = "Pedro";
 		nomes[1] = "Maria";
 		
-		ArrayList<String> nome_novo = new ArrayList();
+		ArrayList<String> nome_novo = new ArrayList<String>();
 		
-		ArrayList<Integer> listaBruta = new ArrayList();
+		ArrayList<Integer> listaBruta = new ArrayList<Integer>();
 		
 		ArrayList<String> listaDeStrings = new ArrayList<>();
 		listaDeStrings.add("Pedro");
