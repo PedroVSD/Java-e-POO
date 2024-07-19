@@ -1,0 +1,28 @@
+package p2_tropa;
+
+import java.util.ArrayList;
+
+public class TestedeRinha {
+    public static void main(String[] args) {
+        ArrayList<Item> itens1 = new ArrayList<>();
+        itens1.add(new Item("Espada", 10, 5, 0, 0));
+        itens1.add(new Item("Armadura", 0, 10, 0, 0));
+
+        ArrayList<Item> itens2 = new ArrayList<>();
+        itens2.add(new Item("Cajado", 5, 5, 0, 10));
+
+        Guerreiro guerreiro = new Guerreiro("Guerreiro1", 100, 50, itens1);
+        SpellBlade spellBlade = new SpellBlade("SpellBlade1", 80, 70, itens2);
+        Troll troll = new Troll("Troll1", 120, 40, itens2);
+        TrollDePOO trollDePOO = new TrollDePOO("TrollDePOO1", 150, 30, itens1);
+
+        Jogo jogo = new Jogo("Rinha de Entidades");
+        jogo.adicionarLutavel(guerreiro);
+        jogo.adicionarLutavel(spellBlade);
+        jogo.adicionarLutavel(troll);
+        jogo.adicionarLutavel(trollDePOO);
+
+        jogo.rinhaDeEntidades(guerreiro, spellBlade);
+        jogo.rinhaDeEntidades(troll, trollDePOO);
+    }
+}

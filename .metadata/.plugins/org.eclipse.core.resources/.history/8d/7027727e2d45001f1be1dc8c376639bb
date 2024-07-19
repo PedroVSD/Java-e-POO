@@ -1,0 +1,10 @@
+package p2;
+
+public class SpellBlade extends Guerreiro{
+	
+	@Override
+	public void setPoder(int poder) {
+		this.poder = getAtaque()*(getVida()+getMana());
+	}
+	
+}

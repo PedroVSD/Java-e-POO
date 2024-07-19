@@ -1,0 +1,44 @@
+package p2_tropa;
+
+import java.util.ArrayList;
+
+public class Guerreiro extends Entidade{
+
+	public Guerreiro(String nome, int vida, int mana, ArrayList<Item> itens) {
+		super(nome, vida, mana, itens);
+	}
+	
+	
+	@Override
+	public int calculaPoder() {
+		int poder = ataque*vida;
+		return poder;
+	}
+
+	@Override
+	public int calculaDefesa() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int calculaVida() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int calculaMana() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int calculaAtaque() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
+
+}

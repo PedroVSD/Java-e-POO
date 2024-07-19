@@ -1,0 +1,8 @@
+package p2_tropa;
+
+public abstract class Entidade implements Lutavel{
+	private int ataque;
+	private int defesa;
+	private int vida;
+	private int mana;
+}

@@ -1,0 +1,9 @@
+package p2_tropa;
+
+public interface Lutavel {
+	public int calculaAtaque();
+	public int calculaDefesa();
+	public int calculaVida();
+	public int calculaManu();
+	public int Poder();
+}

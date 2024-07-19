@@ -1,0 +1,17 @@
+package p2_tropa;
+
+public class Jogo {
+	protected final String nome;
+	protected int ataque;
+	protected int defesa;
+	protected int vida;
+	protected int mana;
+	
+	public Jogo(String nome, int ataque, int defesa, int vida, int mana) {
+		this.nome = nome;
+		this.ataque = ataque;
+		this.defesa = defesa;
+		this.vida = vida;
+		this.mana = mana;
+	}
+}

@@ -1,0 +1,11 @@
+package p2;
+
+import java.util.ArrayList;
+
+public class Troll extends Entidade{
+
+	public Troll(String nome, int vida, int mana, ArrayList<Item> itens) {
+		super(nome, vida, mana, itens);
+	}
+
+}

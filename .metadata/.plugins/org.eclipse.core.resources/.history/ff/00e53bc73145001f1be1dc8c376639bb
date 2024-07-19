@@ -1,0 +1,29 @@
+package p2;
+
+import java.util.ArrayList;
+
+public class Guerreiro extends Entidade{
+
+	private int ataque;
+	
+	public Guerreiro(String nome, int vida, int mana, ArrayList<Item> itens, int ataque) {
+		super(nome, vida, mana, itens);	
+		this.ataque = ataque;
+		calcularPoder();
+	}
+	
+	public int getAtaque(){
+		return ataque;
+	}
+	
+	@Override
+	public void calcularPoder() {
+		this.poder = thisAtaque*this.Vida;
+	}
+
+	@Override
+	public void receberDano(int dano) {
+		// TODO Auto-generated method stub
+		
+	}
+}

@@ -12,5 +12,7 @@
     <fullyQualifiedTypeName name="javax.annotation.processing.AbstractProcessor"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="provaP9.Jogo"/>
+    <fullyQualifiedTypeName name="interfaces.AnimalEstimacao"/>
+    <fullyQualifiedTypeName name="interfaces.AnimalDomesticado"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

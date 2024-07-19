@@ -1,0 +1,9 @@
+package p2_tropa;
+
+public class Troll extends Entidade{
+
+	public Troll(String nome, int vida, int mana, ) {
+		
+	}
+	
+}

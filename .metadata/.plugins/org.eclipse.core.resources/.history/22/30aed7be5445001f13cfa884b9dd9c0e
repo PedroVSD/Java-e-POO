@@ -1,0 +1,9 @@
+package p2_tropa;
+
+public abstract class Entidade implements Lutavel{
+	@Override
+	public int calculaAtaque() {
+		int ataque = 0;
+		return ataque;
+	}
+}
