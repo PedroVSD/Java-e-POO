@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;arraylist.Carro&apos; to &apos;Media&apos;&#x0D;&#x0A;- Original project: &apos;Faculdade&apos;&#x0D;&#x0A;- Original element: &apos;arraylist.Carro&apos;&#x0D;&#x0A;- Renamed element: &apos;arraylist.Media&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Carro&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;arraylist{Carro.java[Carro" matchStrategy="1" name="Media" qualified="false" references="true" similarDeclarations="false" stamp="1714334618919" textual="false" version="1.0"/>
-</session>

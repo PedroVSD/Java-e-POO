@@ -1,8 +1,0 @@
-package p2;
-
-public class Guerreiro extends Entidade{
-
-	public Guerreiro() {
-		super(nome, vida, mana, itens);	
-	}
-}

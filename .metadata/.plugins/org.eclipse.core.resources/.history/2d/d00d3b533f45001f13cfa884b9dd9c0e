@@ -1,5 +1,0 @@
-package p2_tropa;
-
-public interface Lutavel {
-	public void kickar();
-}
